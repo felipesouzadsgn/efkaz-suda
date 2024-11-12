@@ -22,7 +22,6 @@ $session = session();
 $step1 = session()->get('step1Data');
 ?>
 
-
 <style>
 	.check-animation {
 		width: 7rem;

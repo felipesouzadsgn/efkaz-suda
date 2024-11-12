@@ -34,7 +34,7 @@
 
     /* Linha entre os passos */
     .custom-progress-line {
-        width: 8rem;
+        width: 5rem;
         height: 0.25rem;
         background-color: #ddd;
         /* Cor da linha para passos futuros */

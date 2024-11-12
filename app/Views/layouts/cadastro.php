@@ -65,7 +65,7 @@
                     <h4 class="simulator__footer-title"><?= $footerTitle ?></h4>
                     <?php if ($showProgressBar): ?>
                         <p class="simulator__footer-description">Para finalizar a proposta finalize seu cadastro</p>
-                        <?= view('components/progress_bar', ['totalSteps' => 3, 'currentStep' => $currentStep]) ?>
+                        <?= view('components/progress_bar', ['totalSteps' => 4, 'currentStep' => $currentStep]) ?>
                     <?php endif; ?>
                 </footer>
             </div>

@@ -39,7 +39,7 @@ $step1Data = session()->get('step1Data');
 
 <section class="section">
 
-  <?= view('components/progress_bar', ['totalSteps' => 3, 'currentStep' => 3]) ?>
+  <?= view('components/progress_bar', ['totalSteps' => 4, 'currentStep' => 3]) ?>
 
   <div class="section__content">
 

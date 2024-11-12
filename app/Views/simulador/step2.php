@@ -69,7 +69,7 @@ $session = session();
 
 <section class="section">
 
-    <?= view('components/progress_bar', ['totalSteps' => 3, 'currentStep' => 2]) ?>
+    <?= view('components/progress_bar', ['totalSteps' => 4, 'currentStep' => 2]) ?>
 
     <div class="section__content">
 

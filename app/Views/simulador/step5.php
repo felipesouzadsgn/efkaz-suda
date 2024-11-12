@@ -38,7 +38,7 @@ $sessionID = session()->get('visitHash');
 
 <?= $this->section('content') ?>
 
-<section class="section">
+<section class="section justify-content-center">
     <div class="section__content">
         <h1 class="section__title">Ótima escolha <?= $step1Data['nome'] ?></h1>
 
