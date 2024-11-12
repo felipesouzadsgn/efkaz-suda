@@ -1,0 +1,78 @@
+/* Estilo base para o campo */
+.input-group {
+  width: 100%;
+}
+
+.input-group__label {
+  display: block;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  position: relative;
+  width: 100%;
+}
+
+.input__icon {
+  position: absolute;
+  top: 50%;
+  left: 0.625rem;
+  transform: translateY(-50%);
+  color: #666;
+  transition: color 0.2s;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+/* Estilo para o input com ícone */
+.input__field {
+  width: 100%;
+  padding: 0.625rem 2.5rem 0.625rem 2.25rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.3125rem;
+  outline: none;
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Estilo para o input sem ícone */
+.input__field.input--no-icon {
+  padding-left: 0.625rem !important;
+  /* Remover o espaçamento extra à direita */
+}
+
+/* Remover o ícone de calendário padrão do campo 'date' */
+.input__field[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.input__field[type="date"] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.input__field::placeholder {
+  color: #aaa;
+}
+
+.input__field:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0.3125rem rgba(0, 123, 255, 0.5);
+}
+
+.input__field:focus::selection {
+  background-color: #e0f3ff;
+  color: #333;
+}
+
+.input:hover .input__icon {
+  color: #007bff;
+}
+
+.input__field:hover {
+  border-color: #007bff;
+}

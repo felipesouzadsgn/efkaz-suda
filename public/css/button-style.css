@@ -1,0 +1,112 @@
+/* Estilos gerais para o botão personalizado */
+.btn-custom {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+/* Ícone dentro do botão */
+.btn-custom__icon {
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+}
+
+/* Botão primário (fundo azul marinho, texto branco) */
+.btn-custom--primary {
+    background-color: #003366;
+    /* Azul marinho */
+    color: #fff;
+    /* Texto branco */
+}
+
+.btn-custom--primary:hover {
+    background-color: #002855;
+}
+
+.btn-custom--primary:focus {
+    outline: 2px solid #80bfff;
+    box-shadow: 0 0 0.3125rem rgba(0, 123, 255, 0.5);
+}
+
+/* Botão secundário (fundo branco, texto azul marinho) */
+.btn-custom--secondary {
+    background-color: #fff;
+    /* Fundo branco */
+    color: #003366;
+    /* Texto azul marinho */
+    border: 1px solid #003366;
+}
+
+.btn-custom--secondary:hover {
+    background-color: #f0f2f5;
+}
+
+.btn-custom--secondary:focus {
+    outline: 2px solid #80bfff;
+    box-shadow: 0 0 0.3125rem rgba(0, 123, 255, 0.5);
+}
+
+/* Botão terciário (fundo transparente, texto azul marinho) */
+.btn-custom--tertiary {
+    background-color: transparent;
+    /* Sem fundo */
+    color: #003366;
+    /* Texto azul marinho */
+    border: 1px solid transparent;
+}
+
+.btn-custom--tertiary:hover {
+    background-color: rgba(0, 51, 102, 0.1);
+    /* Fundo leve no hover */
+}
+
+.btn-custom--tertiary:focus {
+    outline: 2px solid #80bfff;
+    box-shadow: 0 0 0.3125rem rgba(0, 123, 255, 0.5);
+}
+
+/* Botão de pagamento verde (fundo verde, texto branco) */
+.btn-custom--payment {
+    background-color: #28a745; 
+    /* Verde */
+    color: white;
+    /* Texto branco */
+}
+
+.btn-custom--payment:hover {
+    background-color: #218838;
+    /* Verde mais escuro no hover */
+}
+
+.btn-custom--payment:focus {
+    outline: 2px solid #80bfff;
+    box-shadow: 0 0 0.3125rem rgba(0, 123, 255, 0.5);
+}
+
+/* Botão secundário cinza (fundo cinza, texto escuro) */
+.btn-custom--gray {
+    background-color: #6c757d;
+    /* Cinza */
+    color: white;
+    /* Texto branco */
+    border: none;
+}
+
+.btn-custom--gray:hover {
+    background-color: #5a6268;
+    /* Cinza mais escuro no hover */
+}
+
+.btn-custom--gray:focus {
+    outline: 2px solid #80bfff;
+    box-shadow: 0 0 0.3125rem rgba(0, 123, 255, 0.5);
+}
