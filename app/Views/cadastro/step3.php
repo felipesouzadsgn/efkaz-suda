@@ -1,4 +1,5 @@
 <?= $this->extend('layouts/cadastro') ?>
+
 <?php 
     $this->setVar('currentStep', 3); // Ajuste o valor conforme a etapa atual (1, 2, 3...)
 ?>

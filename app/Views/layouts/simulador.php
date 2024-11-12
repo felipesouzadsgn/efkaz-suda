@@ -58,7 +58,6 @@
                 <footer class="simulator__footer">
                     <h4 class="simulator__footer-title">A sua seguradora.</h4>
                     <p class="simulator__footer-description">Confira nossos produtos no site.</p>
-                    <?= view('components/progress_bar', ['totalSteps' => 3, 'currentStep' => 1]) ?>
                 </footer>
             </div>
         </div>
